@@ -14,6 +14,7 @@ output:
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
+  background-color: white;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -171,9 +172,20 @@ Institut National de Recherche en Informatique et Automatique (INRIA), Team Drac
 <div class="card">
 <div class="container">
 <img src="https://github.com/RinteRface/shinyMobile/raw/master/man/figures/logo.png" alt="Avatar" style="width:100%">
-<p>Develop outstanding {shiny} apps for iOS, Android, desktop as well as beautiful {shiny} gadgets. {shinyMobile} is built on top of the latest Framework7 template.</p> 
+<p>Develop outstanding {shiny} apps for iOS, Android and desktop.</p> 
 [![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/shinyMobile)
 [![CRAN status](https://www.r-pkg.org/badges/version/shinyMobile)](https://cran.r-project.org/package=shinyMobile)
+</div>
+</div>
+
+</br>
+
+<div class="card">
+<div class="container">
+<img src="https://rinterface.com/inst/images/bs4Dash.svg" alt="Avatar" style="width:100%">
+<p>Bootstrap 4 shinydashboard using AdminLTE3.</p> 
+[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/bs4Dash)
+[![CRAN status](https://www.r-pkg.org/badges/version/bs4Dash)](https://cran.r-project.org/package=bs4Dash)
 </div>
 </div>
 
