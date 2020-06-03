@@ -6,7 +6,7 @@ output:
   pagedown::html_resume:
   # set it to true for a self-contained HTML page but it'll take longer to render
     css: ["resume", "custom.css"]
-    self_contained: false
+    self_contained: true
 ---
 
 Aside
@@ -225,6 +225,17 @@ N/A
 
 D. Granjon
 
+
+Conferences and Talks {data-icon=user-friends}
+--------------------------------------------------------------------------------
+
+### satRdayNeuch 2020
+Oral presentation: An introduction to shinyMobile: https://github.com/DivadNojnarg/satRdayNeuch2020.
+
+Remote (Covid 2019)
+
+14/03/2020
+
 ::: aside
 
 </br>
@@ -239,17 +250,6 @@ D. Granjon
 </div>
 
 :::
-
-Conferences and Talks {data-icon=user-friends}
---------------------------------------------------------------------------------
-
-### satRdayNeuch 2020
-Oral presentation: An introduction to shinyMobile: https://github.com/DivadNojnarg/satRdayNeuch2020.
-
-Remote (Covid 2019)
-
-14/03/2020
-
 
 ### Zurich R User Group
 Oral presentation: "shinyMobile: Build Native Looking Shiny Apps: https://rinterface.com/shiny/talks/zurichR2020/index.html#slide=1.

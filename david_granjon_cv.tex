@@ -1,0 +1,603 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={David Granjon},
+  pdfauthor={David Granjon},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{David Granjon}
+\author{David Granjon}
+\date{2020-06-03}
+
+\begin{document}
+\maketitle
+
+\hypertarget{aside}{%
+\section{Aside}\label{aside}}
+
+\hypertarget{contact}{%
+\subsection{Contact Info}\label{contact}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{mailto:dgranjon@ymail.com}{\nolinkurl{dgranjon@ymail.com}}
+\item
+  \href{github.com/DivadNojnarg}{DivadNojnarg}
+\item
+  \href{https://divadnojnarg.github.io}{Blog}
+\item
+  \href{https://rinterface.com}{RinteRface}
+\item
+  \href{https://twitter.com/divadnojnarg}{divadnojnarg}
+\end{itemize}
+
+\hypertarget{skills}{%
+\subsection{Skills}\label{skills}}
+
+\begin{itemize}
+\tightlist
+\item
+  Data Analysis: R
+\item
+  Web development: \{Shiny\}, JavaScript, React, HTML, CSS, Postman
+  (http requests)
+\item
+  Reporting: \{bookdown\}, \{rmarkdown\}, \{pagedown\}, Latex
+\item
+  Workflow: Git, github-actions, Travis, \{renv\}, \{golem\},
+  \{devtools\}, \{profvis\}, \{usethis\}, \{testthat\}, \ldots{}
+\item
+  Script: Bash
+\end{itemize}
+
+\hypertarget{speak}{%
+\subsection{Languages}\label{speak}}
+
+\begin{itemize}
+\tightlist
+\item
+  French (native)
+\item
+  English (C1)
+\end{itemize}
+
+\hypertarget{main}{%
+\section{Main}\label{main}}
+
+\hypertarget{title}{%
+\subsection{David Granjon}\label{title}}
+
+\hypertarget{principal-scientist-and-consultant-novartis-ag}{%
+\subsubsection{Principal Scientist and Consultant, Novartis
+AG}\label{principal-scientist-and-consultant-novartis-ag}}
+
+\begin{itemize}
+\tightlist
+\item
+  Founder of \href{https://rinterface.com}{RinteRface}
+\item
+  R Shiny advocate
+\end{itemize}
+
+\hypertarget{education}{%
+\subsection{Education}\label{education}}
+
+\hypertarget{phd-in-life-sciences}{%
+\subsubsection{PhD in Life Sciences}\label{phd-in-life-sciences}}
+
+Thesis title: ''Modeling of Calcium Homeostasis in the Rat and its
+Perturbations''. Building of a mathematical model describing calcium
+homeostasis, including its analysis and simulation of pathologies.
+Advisors: Dr.~Aurélie Edwards and Pr. Olivier Bonny.
+
+Université Pierre et Marie Curie, Paris, Université de Lausanne,
+Switzerland
+
+2013-2016
+
+\hypertarget{masters-degree-in-ecosiences-miv}{%
+\subsubsection{Master's Degree in Ecosiences,
+MIV}\label{masters-degree-in-ecosiences-miv}}
+
+Main subjects: Mathematics, Theoretical Ecology and Programming.
+
+Université Claude Bernard (UCBL), Lyon
+
+2011-2013
+
+\hypertarget{licence-3-year-degree-in-mathematics-and-computer-sciences-for-the-living-miv}{%
+\subsubsection{Licence (3 year degree) in Mathematics and Computer
+Sciences for the Living
+(MIV)}\label{licence-3-year-degree-in-mathematics-and-computer-sciences-for-the-living-miv}}
+
+Main subjects: Mathematics, Ecology and Computer Sciences.
+
+Université Claude Bernard (UCBL), Lyon
+
+2010-2011
+
+\hypertarget{preparatory-school-for-engineers}{%
+\subsubsection{Preparatory School for
+Engineers}\label{preparatory-school-for-engineers}}
+
+Main subjects: Mathematics, Physics, Biology, Geology.
+
+Lycée Claude Fauriel, Saint Etienne
+
+2008-2010
+
+\hypertarget{professional-experience}{%
+\subsection{Professional Experience}\label{professional-experience}}
+
+\hypertarget{post-doctoral-researcher}{%
+\subsubsection{Post Doctoral
+Researcher}\label{post-doctoral-researcher}}
+
+Software engineer
+
+The Interface Group, University of Zurich (UZH)
+
+06/17 - 06/19
+
+Two main projects:
+
+\begin{itemize}
+\tightlist
+\item
+  develop user-friendly interfaces of Calcium and Phosphate Homeosta-
+  sis, using the R-Shiny package, javascript and C. Management of linux
+  web servers. Design new interactive tools dedicated to teaching
+  courses.
+\item
+  build a model linking the cardiac and renal functions,to better
+  understand the interplay between chronic kidney disease as well as
+  cardiac failure. Create virtual patient populations using Monte Carlo
+  simulations.
+\end{itemize}
+
+\hypertarget{post-doctoral-researcher-1}{%
+\subsubsection{Post Doctoral
+Researcher}\label{post-doctoral-researcher-1}}
+
+Improvements to the model developed during my doctoral thesis.
+Publication of a second article (see publications). Supervisors:
+Dr.~Aurélie Edwards and Pr. Olivier Bonny.
+
+CHUV, Lausanne university hospital, Switzerland
+
+01/17 - 03/17
+
+\hypertarget{internship-in-a-team-of-theoretical-physiology}{%
+\subsubsection{Internship in a Team of Theoretical
+Physiology}\label{internship-in-a-team-of-theoretical-physiology}}
+
+Improvements to the model developed during the previous internship.
+Supervisors: Dr.~Moisés Santillan, Pr. Michael Mackey
+
+Centre for Applied Mathematics in Bioscience and Medicine (CAMBAM), Mc
+Gill University, Montreal, Canada.
+
+07/13 - 08/13
+
+\hypertarget{internship-in-a-laboratory-of-applied-mathematics}{%
+\subsubsection{Internship in a Laboratory of Applied
+Mathematics}\label{internship-in-a-laboratory-of-applied-mathematics}}
+
+Project title: ''Multiscale modeling of Zebrafish Somitogenesis''
+Development of a model accounting for the intra-cellular oscillator in
+each cell during somitogenesis. Supervisors: Dr.~Laurent Pujo-menjouet
+(UCBL), Pr. Michael Mackey (Mc Gill, Canada).
+
+Institut National de Recherche en Informatique et Automatique (INRIA),
+Team Dracula, Lyon
+
+01/13 - 07/13
+
+\hypertarget{references}{%
+\subsubsection{Contacts}\label{references}}
+
+\href{mailto:aued@bu.edu}{Dr.~Aurélie Edwards}
+\href{mailto:olivier.bonny@unil.ch}{Pr. Olivier Bonny. +41 21 692 53 60}
+\href{mailto:pujo@math.univ-lyon1.fr}{Dr.~Laurent Pujo-Menjouet. +33 472
+431 008} \href{mailto:diane.dezelicourt@physiol.uzh.ch}{Dr.~Diane de
+Zélicourt. +41 (0) 44 635 50 56}
+\href{mailto:vartan.kurtcuoglu@uzh.ch}{Pr. Vartan Kurtcuoglu. +41 (0) 44
+635 50 55}
+
+\hypertarget{packages}{%
+\subsubsection{R packages}\label{packages}}
+
+Develop outstanding \{shiny\} apps for iOS, Android and desktop.
+
+\href{https://cran.r-project.org/package=shinyMobile}{\includegraphics{https://www.r-pkg.org/badges/version/shinyMobile}}
+
+\hypertarget{internship-in-a-laboratory-of-applied-mathematics-1}{%
+\subsubsection{Internship in a Laboratory of Applied
+Mathematics}\label{internship-in-a-laboratory-of-applied-mathematics-1}}
+
+Project title: '' Mathematical modeling of somitogenesis, reaction-
+diffusion systems''. Analysis of two mathematical models: cell-cycle and
+clock/wavefront models. Supervisor: Dr.~Laurent Pujo-Menjouet (UCBL).
+
+Institut National de Recherche en Informatique et Automatique (INRIA),
+Team Dracula, Lyon
+
+03/12 - 07/12
+
+\hypertarget{internship-in-a-laboratory-of-theoretical-ecology}{%
+\subsubsection{Internship in a Laboratory of Theoretical
+Ecology}\label{internship-in-a-laboratory-of-theoretical-ecology}}
+
+Project title: '' Ecotoxicology of Daphnia Magna ''. Study of the impact
+of pollution on the growth of Daphnia Magna through mathematical models.
+Supervisors: Pr. Sandrine Charles (UCBL), Pr. Marie Laure Delignette
+Muller (Ecole Nationale Vétérinaire de Lyon).
+
+Laboratoire de Biométrie et Biologie Evolutive (LBBE), Team Modélisation
+et Ecotoxycologie Prédictive (MEPS), Lyo
+
+06/11 - 08/11
+
+\hypertarget{publications}{%
+\subsection{Publications}\label{publications}}
+
+\hypertarget{an-elearning-platform-to-teach-calcium-and-phosphate-homeostasis}{%
+\subsubsection{An eLearning platform to teach calcium and phosphate
+homeostasis}\label{an-elearning-platform-to-teach-calcium-and-phosphate-homeostasis}}
+
+Submitted to American Journal of Physiology-Advances in Physiology
+Education.
+
+N/A
+
+2019
+
+D. Granjon, O. Bonny, F. Verrey, V. Kurtcuoglu and D. de Zelicourt.
+
+\hypertarget{coupling-between-phosphate-and-calcium-homeostasis-a-mathematical-model}{%
+\subsubsection{Coupling between Phosphate and Calcium Homeostasis: A
+Mathematical
+Model}\label{coupling-between-phosphate-and-calcium-homeostasis-a-mathematical-model}}
+
+American Journal of Physiology-Renal Physiology, 313(6): F1181-F1199.
+doi: 10.1152/ajprenal.00271.2017
+
+N/A
+
+2017
+
+D. Granjon, O. Bonny, A. Edwards.
+
+\hypertarget{a-model-of-calcium-homeostasis-in-the-rat}{%
+\subsubsection{A Model of Calcium Homeostasis in the
+Rat}\label{a-model-of-calcium-homeostasis-in-the-rat}}
+
+American Journal of Physiology-Renal Physiology, 311 (5): F1047-F1062.
+doi: 10.1152/ajprenal.00230.2016
+
+N/A
+
+2016
+
+D. Granjon, O. Bonny, A. Edwards.
+
+\hypertarget{books}{%
+\subsection{Books}\label{books}}
+
+\hypertarget{outstanding-user-interfaces-with-shiny}{%
+\subsubsection{Outstanding User Interfaces with
+Shiny}\label{outstanding-user-interfaces-with-shiny}}
+
+This book provides the necessary knowledge to extend Shiny's layout:
+\url{https://divadnojnarg.github.io/outstanding-shiny-ui/}.
+
+N/A
+
+2020
+
+D. Granjon
+
+Bootstrap 4 shinydashboard using AdminLTE3.
+
+\href{https://github.com/RinteRface/bs4Dash}{\includegraphics{https://img.shields.io/badge/code-available-1f8eed.svg}}
+\href{https://cran.r-project.org/package=bs4Dash}{\includegraphics{https://www.r-pkg.org/badges/version/bs4Dash}}
+
+\hypertarget{conferences-and-talks}{%
+\subsection{Conferences and Talks}\label{conferences-and-talks}}
+
+\hypertarget{satrdayneuch-2020}{%
+\subsubsection{satRdayNeuch 2020}\label{satrdayneuch-2020}}
+
+Oral presentation: An introduction to shinyMobile:
+\url{https://github.com/DivadNojnarg/satRdayNeuch2020}.
+
+Remote (Covid 2019)
+
+14/03/2020
+
+\hypertarget{zurich-r-user-group}{%
+\subsubsection{Zurich R User Group}\label{zurich-r-user-group}}
+
+Oral presentation: "shinyMobile: Build Native Looking Shiny Apps:
+\url{https://rinterface.com/shiny/talks/zurichR2020/index.html\#slide=1}.
+
+Zurich
+
+29/01/2020
+
+\hypertarget{baselr}{%
+\subsubsection{BaselR}\label{baselr}}
+
+Oral presentation: "Development of a web application to represent models
+of calcium and phosphate homeostasis using R.
+
+Basel
+
+05/12/2019
+
+\hypertarget{shiny-developers-series}{%
+\subsubsection{Shiny Developers Series}\label{shiny-developers-series}}
+
+Podcast interview: "Production-ready UIs for Shiny:
+\url{https://shinydevseries.com/post/episode-4-rinterface/}.
+
+Online
+
+08/2019
+
+\hypertarget{user-2019}{%
+\subsubsection{useR 2019}\label{user-2019}}
+
+Poster presentation: "A Shiny Powered Virtual Patient:
+\url{https://github.com/DivadNojnarg/userR2019}.
+
+Toulouse
+
+09/07/19 - 12/07/19
+
+\hypertarget{zurich-r-user-group-1}{%
+\subsubsection{Zurich R User Group}\label{zurich-r-user-group-1}}
+
+Oral presentation: "RinteRface, Production-ready UIs for Shiny:
+\url{https://rinterface.com/shiny/talks/zurichR2019/index.html\#slide=1}.
+
+Zurich
+
+27/05/19
+
+Extensions for shinydashboard.
+
+\href{https://github.com/RinteRface/shinydashboardPlus}{\includegraphics{https://img.shields.io/badge/code-available-1f8eed.svg}}
+\href{https://cran.r-project.org/package=shinydashboardPlus}{\includegraphics{https://www.r-pkg.org/badges/version/shinydashboardPlus}}
+
+\hypertarget{nccr-kidney.ch-retreat-2019}{%
+\subsubsection{NCCR Kidney.CH Retreat
+2019}\label{nccr-kidney.ch-retreat-2019}}
+
+Oral presentation: ''Web applications for physiology: bridge the gap
+between research and teaching''.
+
+Murten, Switzerland
+
+31/01/19 - 01/02/19
+
+\hypertarget{nccr-kidney.ch-summer-school-2018}{%
+\subsubsection{NCCR Kidney.CH Summer School
+2018}\label{nccr-kidney.ch-summer-school-2018}}
+
+Poster first author: ''Web-based e-learning tools of Calcium and
+Phosphate Homeostasis''.
+
+Zurich, Switzerland
+
+09/09/18 - 12/09/18
+
+\hypertarget{world-congress-of-biomechanics-2018}{%
+\subsubsection{World Congress of Biomechanics
+2018}\label{world-congress-of-biomechanics-2018}}
+
+Poster first author: ''Addressing biomedical diversity via eLearning, an
+example from a physiology curriculum''.
+
+Dublin, Ireland
+
+08/07/18 - 12/07/18
+
+\hypertarget{nccr-kidney.ch-retreat-2018}{%
+\subsubsection{NCCR Kidney.CH Retreat
+2018}\label{nccr-kidney.ch-retreat-2018}}
+
+Poster first author: ''A web-based application of Calcium and Phosphate
+Homeostasis''.
+
+Murten, Switzerland
+
+01/02/18 - 02/02/18
+
+\hypertarget{bachelorthemenworkshops-5.-semester-hs-2017}{%
+\subsubsection{Bachelor--Themenworkshops 5. Semester HS
+2017}\label{bachelorthemenworkshops-5.-semester-hs-2017}}
+
+Oral presentation: Computational Physiology.
+
+Zurich University of the Arts, Switzerland
+
+17/10/17
+
+\hypertarget{meeting-of-the-federation-of-physiological-societies-and-the-french-physiological-society}{%
+\subsubsection{Meeting of the Federation of Physiological Societies and
+the French Physiological
+Society}\label{meeting-of-the-federation-of-physiological-societies-and-the-french-physiological-society}}
+
+Poster presentation: ''Role of the rapidly exchangeable calcium pool in
+bone in calcium homeostasis''.
+
+Centre de Recherche des Cordeliers, Paris
+
+29/06/16 - 1/07/16
+
+\hypertarget{annual-franco-swiss-meeting-on-electrolytes-metabolism-and-renal-physiology}{%
+\subsubsection{Annual Franco-Swiss Meeting on Electrolytes Metabolism
+and Renal
+Physiology}\label{annual-franco-swiss-meeting-on-electrolytes-metabolism-and-renal-physiology}}
+
+Oral presentation: ''A model of Ca/Pi homeostasis in the Rat''.
+
+Inselspital, Bern
+
+23/03/16 - 24/03/16
+
+\hypertarget{nccr-kidney.ch-retreat-2016}{%
+\subsubsection{NCCR Kidney.CH Retreat
+2016}\label{nccr-kidney.ch-retreat-2016}}
+
+Poster first author: ''Role of the bone rapidly exchangeable calcium
+pool in calcium homeostasis''.
+
+Murten, Switzerland
+
+25/02/16 - 27/02/16
+
+\hypertarget{socieux301teux301-francophone-de-dialysesocieux301teux301-de-neux301phrologie}{%
+\subsubsection{Société Francophone de Dialyse/Société de
+Néphrologie}\label{socieux301teux301-francophone-de-dialysesocieux301teux301-de-neux301phrologie}}
+
+Poster first author: ''Consequences of primary hyperparathyroidism on
+renal calcium excretion''.
+
+Lyon, France
+
+29/09/15 - 02/10/15
+
+\hypertarget{annual-franco-swiss-meeting-on-electrolytes-metabolism-and-renal-physiology-1}{%
+\subsubsection{Annual Franco-Swiss Meeting on Electrolytes Metabolism
+and Renal
+Physiology}\label{annual-franco-swiss-meeting-on-electrolytes-metabolism-and-renal-physiology-1}}
+
+Oral presentation: ''A Model of Calcium Homeostasis in the Rat''.
+
+Centre de Recherche des Cordeliers, Paris
+
+19/03/15 - 20/03/15
+
+\hypertarget{annual-franco-swiss-meeting-on-electrolytes-metabolism-and-renal-physiology-2}{%
+\subsubsection{Annual Franco-Swiss Meeting on Electrolytes Metabolism
+and Renal
+Physiology}\label{annual-franco-swiss-meeting-on-electrolytes-metabolism-and-renal-physiology-2}}
+
+Oral presentation: ''A Simplified Model of Plasma Calcium Regulation by
+PTH''.
+
+CHUV, Lausanne
+
+19/03/14 - 20/03/14
+
+\hypertarget{conference-in-honour-of-michael-mackeys-70th-birthday}{%
+\subsubsection{Conference " In honour of Michael Mackey's 70th
+birthday}\label{conference-in-honour-of-michael-mackeys-70th-birthday}}
+
+Oral presentation: ''Oscillatory dynamic during zebrafish
+somitogenesis''.
+
+Lyon, France
+
+3/06/13 - 6/06/13
+
+\hypertarget{awards}{%
+\subsection{Awards}\label{awards}}
+
+\hypertarget{rstudio-shiny-contest}{%
+\subsubsection{2019 RStudio Shiny Contest}\label{rstudio-shiny-contest}}
+
+\begin{itemize}
+\tightlist
+\item
+  Runner-Up price: A Virtual Lab for Teaching Physiology.
+\end{itemize}
+
+N/A
+
+Link:
+\url{https://community.rstudio.com/t/shiny-contest-submission-a-virtual-lab-for-teaching-physiology/25348}
+
+2019
+
+\hypertarget{nccr-kidney.ch-retreat-2018-1}{%
+\subsubsection{NCCR Kidney.CH Retreat
+2018}\label{nccr-kidney.ch-retreat-2018-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Best Poster Award, 2nd price: A web-based application of Calcium and
+  Phosphate Homeostasis.
+\end{itemize}
+
+N/A
+
+N/A
+
+2019
+
+This resume was made with the R package
+\href{https://github.com/rstudio/pagedown}{\textbf{pagedown}}.
+
+Last updated on 2020-06-03.
+
+\end{document}
