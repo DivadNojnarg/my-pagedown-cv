@@ -1,0 +1,305 @@
+---
+title: "David Granjon"
+author: David Granjon
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+  # set it to true for a self-contained HTML page but it'll take longer to render
+  self_contained: false
+---
+
+Aside
+================================================================================
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> dgranjon@ymail.com
+- <i class="fa fa-github"></i> [DivadNojnarg](https://github.com/DivadNojnarg)
+- <i class="fa fa-home"></i> [Blog](https://divadnojnarg.github.io)
+- <i class="fa fa-twitter"></i> [@divadnojnarg](https://twitter.com/divadnojnarg)
+
+
+R packages {#skills}
+--------------------------------------------------------------------------------
+
+- #### shinyMobile: 
+<!-- [![CRAN status](https://www.r-pkg.org/badges/version/shinyMobile)](https://cran.r-project.org/package=shinyMobile) -->
+
+<!-- ![shinyMobile](https://github.com/RinteRface/shinyMobile/raw/master/man/figures/logo.png){width=70%} -->
+
+- Develop outstanding {shiny} apps for iOS, Android, desktop as well as beautiful {shiny} gadgets. {shinyMobile} is built on top of the latest Framework7 template.
+- Code: https://github.com/RinteRface/shinyMobile
+
+
+
+
+Main
+================================================================================
+
+David granjon {#title}
+--------------------------------------------------------------------------------
+
+### Principal Scientist and Consultant, Novartis AG
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### PhD in Life Sciences
+
+Thesis title: ”Modeling of Calcium Homeostasis in the Rat and its Perturbations”.
+Building of a mathematical model describing calcium homeostasis, including its analysis and simulation of pathologies. Advisors: Dr. Aurélie Edwards and Pr. Olivier Bonny.
+
+Université Pierre et Marie Curie, Paris, Université de Lausanne, Switzerland
+
+2013-2016
+
+### Master's Degree in Ecosiences, MIV
+
+Main subjects: Mathematics, Theoretical Ecology and Programming.
+
+Université Claude Bernard (UCBL), Lyon
+
+2011-2013
+
+### Licence (3 year degree) in Mathematics and Computer Sciences for the Living (MIV)
+
+Main subjects: Mathematics, Ecology and Computer Sciences.
+
+Université Claude Bernard (UCBL), Lyon
+
+2010-2011
+
+
+### Preparatory School for Engineers
+
+Main subjects: Mathematics, Physics, Biology, Geology.
+
+Lycée Claude Fauriel, Saint Etienne
+
+2008-2010
+
+
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Post Doctoral Researcher
+
+Software engineer
+
+The Interface Group, University of Zurich (UZH)
+
+06/17 - 06/19
+
+Two main projects:
+
+  - develop user-friendly interfaces of Calcium and Phosphate Homeosta-
+sis, using the R-Shiny package, javascript and C. Management of linux web servers. Design new interactive tools dedicated to teaching courses.
+  - build a model linking the cardiac and renal functions,to better understand the interplay between chronic kidney disease as well as cardiac failure. Create virtual patient populations using Monte Carlo simulations.
+
+
+### Post Doctoral Researcher
+Improvements to the model developed during my doctoral thesis. Publication of a second article (see publications). Supervisors: Dr. Aurélie Edwards and Pr. Olivier Bonny.
+
+CHUV, Lausanne university hospital, Switzerland
+
+01/17 - 03/17
+
+
+
+### Internship in a Team of Theoretical Physiology
+
+Improvements to the model developed during the previous internship. Supervisors: Dr. Moisés Santillan, Pr. Michael Mackey
+
+Centre for Applied Mathematics in Bioscience and Medicine (CAMBAM), Mc Gill University, Montreal, Canada.
+
+07/13 - 08/13
+
+
+### Internship in a Laboratory of Applied Mathematics
+Project title: ”Multiscale modeling of Zebrafish Somitogenesis”
+Development of a model accounting for the intra-cellular oscillator in each cell during somitogenesis. Supervisors: Dr. Laurent Pujo-menjouet (UCBL), Pr. Michael Mackey (Mc Gill, Canada).
+
+Institut National de Recherche en Informatique et Automatique (INRIA), Team Dracula, Lyon
+
+01/13 - 07/13
+
+
+### Internship in a Laboratory of Applied Mathematics
+Project title: ” Mathematical modeling of somitogenesis, reaction- diffusion systems”.
+Analysis of two mathematical models: cell-cycle and clock/wavefront models. Supervisor: Dr. Laurent Pujo-Menjouet (UCBL).
+
+Institut National de Recherche en Informatique et Automatique (INRIA), Team Dracula, Lyon
+
+03/12 - 07/12
+
+
+### Internship in a Laboratory of Theoretical Ecology
+Project title: ” Ecotoxicology of Daphnia Magna ”.
+Study of the impact of pollution on the growth of Daphnia Magna through mathematical models. Supervisors: Pr. Sandrine Charles (UCBL), Pr. Marie Laure Delignette Muller (Ecole Nationale Vétérinaire de Lyon).
+
+Laboratoire de Biométrie et Biologie Evolutive (LBBE), Team Modélisation et Ecotoxycologie Prédictive (MEPS), Lyo
+
+06/11 - 08/11
+
+
+::: aside
+
+### Skills:
+
+R, HTML, JavaScript, Shiny, Latex
+
+:::
+
+
+Publications {data-icon=file}
+--------------------------------------------------------------------------------
+
+### An eLearning platform to teach calcium and phosphate homeostasis
+Submitted to American Journal of Physiology-Advances in Physiology Education. 
+
+N/A
+
+2019
+
+D. Granjon, O. Bonny, F. Verrey, V. Kurtcuoglu and D. de Zelicourt. 
+
+
+### Coupling between Phosphate and Calcium Homeostasis: A Mathematical Model
+American Journal of Physiology-Renal Physiology, 313(6): F1181-F1199. doi: 10.1152/ajprenal.00271.2017
+
+N/A
+
+2017
+
+D. Granjon, O. Bonny, A. Edwards.
+
+
+### A Model of Calcium Homeostasis in the Rat
+American Journal of Physiology-Renal Physiology, 311 (5): F1047-F1062. doi: 10.1152/ajprenal.00230.2016
+
+N/A
+
+2016
+
+D. Granjon, O. Bonny, A. Edwards.
+
+
+
+
+
+Conferences and Talks {data-icon=file}
+--------------------------------------------------------------------------------
+
+### NCCR Kidney.CH Retreat 2019
+
+Oral presentation: ”Web applications for physiology: bridge the gap between research and teaching”.
+
+Murten, Switzerland
+
+31/01/19 - 01/02/19
+
+### NCCR Kidney.CH Summer School 2018
+Poster first author: ”Web-based e-learning tools of Calcium and Phosphate Homeostasis”.
+
+Zurich, Switzerland
+
+09/09/18 - 12/09/18
+
+### World Congress of Biomechanics 2018
+Poster first author: ”Addressing biomedical diversity via eLearning, an example from a physiology curriculum”.
+
+Dublin, Ireland
+
+08/07/18 - 12/07/18
+
+
+### NCCR Kidney.CH Retreat 2018 
+Poster first author: ”A web-based application of Calcium and Phosphate Homeostasis”.
+
+Murten, Switzerland
+
+01/02/18 - 02/02/18
+
+
+### Bachelor–Themenworkshops 5. Semester HS 2017
+Oral presentation: Computational Physiology.
+
+Zurich University of the Arts, Switzerland
+
+17/10/17
+
+### Meeting of the Federation of Physiological Societies and the French Physiological Society 
+
+Poster presentation: ”Role of the rapidly exchangeable calcium pool in bone in calcium homeostasis”.
+
+Centre de Recherche des Cordeliers, Paris
+
+29/06/16 - 1/07/16
+
+
+### Annual Franco-Swiss Meeting on Electrolytes Metabolism and Renal Physiology 
+
+Oral presentation: ”A model of Ca/Pi homeostasis in the Rat”.
+
+Inselspital, Bern
+
+23/03/16 - 24/03/16
+
+
+
+### NCCR Kidney.CH Retreat 2016
+
+Poster first author: ”Role of the bone rapidly exchangeable calcium pool in calcium homeostasis”.
+
+Murten, Switzerland
+
+25/02/16 - 27/02/16
+
+### Société Francophone de Dialyse/Société de Néphrologie
+
+Poster first author: ”Consequences of primary hyperparathyroidism on renal calcium excretion”.
+
+Lyon, France
+
+29/09/15 - 02/10/15
+
+
+
+### Annual Franco-Swiss Meeting on Electrolytes Metabolism and Renal Physiology
+
+Oral presentation: ”A Model of Calcium Homeostasis in the Rat”.
+
+Centre de Recherche des Cordeliers, Paris
+
+19/03/15 - 20/03/15
+
+
+### Annual Franco-Swiss Meeting on Electrolytes Metabolism and Renal Physiology
+
+Oral presentation: ”A Simplified Model of Plasma Calcium Regulation by PTH”.
+
+CHUV, Lausanne
+
+19/03/14 - 20/03/14
+
+
+### Conference " In honour of Michael Mackey's 70th birthday
+
+Oral presentation: ”Oscillatory dynamic during zebrafish somitogenesis”.
+
+Lyon, France
+
+3/06/13 - 6/06/13
+
+
+::: aside
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+:::
