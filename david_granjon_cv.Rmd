@@ -5,14 +5,32 @@ date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
   # set it to true for a self-contained HTML page but it'll take longer to render
-  css: ["custom.css", "resume"]
-  self_contained: true
+  css: ["resume", "custom.css"]
+  self_contained: false
 ---
+
+```{css, echo=FALSE}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+```
 
 Aside
 ================================================================================
 
-<!-- <img src="https://avatars.githubusercontent.com/divadnojnarg" alt="profile_image"> -->
+<img style="border-radius: 50%" src="https://avatars.githubusercontent.com/divadnojnarg" alt="profile_image">
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
@@ -42,18 +60,6 @@ Languages {#speak}
 
 - French (native)
 - English (C1)
-
-
-
-Contacts {#references}
---------------------------------------------------------------------------------
-[Dr. Aurélie Edwards](mailto:aued@bu.edu) </br>
-[Pr. Olivier Bonny. +41 21 692 53 60](mailto:olivier.bonny@unil.ch) </br>
-[Dr. Laurent Pujo-Menjouet. +33 472 431 008](mailto:pujo@math.univ-lyon1.fr) </br>
-[Dr. Diane de Zélicourt. +41 (0) 44 635 50 56](mailto:diane.dezelicourt@physiol.uzh.ch) </br>
-[Pr. Vartan Kurtcuoglu. +41 (0) 44 635 50 55](mailto:vartan.kurtcuoglu@uzh.ch)
-
-
 
 
 Main
@@ -140,7 +146,6 @@ Centre for Applied Mathematics in Bioscience and Medicine (CAMBAM), Mc Gill Univ
 
 07/13 - 08/13
 
-
 ### Internship in a Laboratory of Applied Mathematics
 Project title: ”Multiscale modeling of Zebrafish Somitogenesis”
 Development of a model accounting for the intra-cellular oscillator in each cell during somitogenesis. Supervisors: Dr. Laurent Pujo-menjouet (UCBL), Pr. Michael Mackey (Mc Gill, Canada).
@@ -148,6 +153,31 @@ Development of a model accounting for the intra-cellular oscillator in each cell
 Institut National de Recherche en Informatique et Automatique (INRIA), Team Dracula, Lyon
 
 01/13 - 07/13
+
+
+::: aside
+
+### Contacts {#references}
+[Dr. Aurélie Edwards](mailto:aued@bu.edu) </br>
+[Pr. Olivier Bonny. +41 21 692 53 60](mailto:olivier.bonny@unil.ch) </br>
+[Dr. Laurent Pujo-Menjouet. +33 472 431 008](mailto:pujo@math.univ-lyon1.fr) </br>
+[Dr. Diane de Zélicourt. +41 (0) 44 635 50 56](mailto:diane.dezelicourt@physiol.uzh.ch) </br>
+[Pr. Vartan Kurtcuoglu. +41 (0) 44 635 50 55](mailto:vartan.kurtcuoglu@uzh.ch)
+
+
+### R packages {#packages}
+</br>
+
+<div class="card">
+<div class="container">
+<img src="https://github.com/RinteRface/shinyMobile/raw/master/man/figures/logo.png" alt="Avatar" style="width:100%">
+<p>Develop outstanding {shiny} apps for iOS, Android, desktop as well as beautiful {shiny} gadgets. {shinyMobile} is built on top of the latest Framework7 template.</p> 
+[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/shinyMobile)
+[![CRAN status](https://www.r-pkg.org/badges/version/shinyMobile)](https://cran.r-project.org/package=shinyMobile)
+</div>
+</div>
+
+:::
 
 
 ### Internship in a Laboratory of Applied Mathematics
@@ -166,23 +196,6 @@ Study of the impact of pollution on the growth of Daphnia Magna through mathemat
 Laboratoire de Biométrie et Biologie Evolutive (LBBE), Team Modélisation et Ecotoxycologie Prédictive (MEPS), Lyo
 
 06/11 - 08/11
-
-::: aside
-
-R packages {#packages}
---------------------------------------------------------------------------------
-
-- #### shinyMobile: 
-<!-- [![CRAN status](https://www.r-pkg.org/badges/version/shinyMobile)](https://cran.r-project.org/package=shinyMobile) -->
-
-<!-- ![shinyMobile](https://github.com/RinteRface/shinyMobile/raw/master/man/figures/logo.png){width=70%} -->
-
-- Develop outstanding {shiny} apps for iOS, Android, desktop as well as beautiful {shiny} gadgets. {shinyMobile} is built on top of the latest Framework7 template.
-- Code: https://github.com/RinteRface/shinyMobile
-
-
-
-:::
 
 
 Publications {data-icon=newspaper}
