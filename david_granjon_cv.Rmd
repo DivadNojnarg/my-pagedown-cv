@@ -5,31 +5,53 @@ date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
   # set it to true for a self-contained HTML page but it'll take longer to render
-  self_contained: false
+  css: ["custom.css", "resume"]
+  self_contained: true
 ---
 
 Aside
 ================================================================================
 
+<!-- <img src="https://avatars.githubusercontent.com/divadnojnarg" alt="profile_image"> -->
+
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> dgranjon@ymail.com
-- <i class="fa fa-github"></i> [DivadNojnarg](https://github.com/DivadNojnarg)
+- <i class="fa fa-github"></i> [DivadNojnarg](github.com/DivadNojnarg)
 - <i class="fa fa-home"></i> [Blog](https://divadnojnarg.github.io)
-- <i class="fa fa-twitter"></i> [@divadnojnarg](https://twitter.com/divadnojnarg)
+- <i class="fa fa-home"></i> [RinteRface](https://rinterface.com)
+- <i class="fa fa-twitter"></i> [divadnojnarg](https://twitter.com/divadnojnarg)
 
 
-R packages {#skills}
+
+Skills {#skills}
 --------------------------------------------------------------------------------
 
-- #### shinyMobile: 
-<!-- [![CRAN status](https://www.r-pkg.org/badges/version/shinyMobile)](https://cran.r-project.org/package=shinyMobile) -->
+- <strong>Data Analysis</strong>: R 
+- <strong>Web development</strong>: JavaScript, React, HTML, CSS, Postman (http requests)
+- <strong>Compiled</strong>: basis of C
+- <strong>Reporting</strong>: {bookdown}, {rmarkdown}, {pagedown}, Latex
+- <strong>DevOps</strong>: Git, github-actions, Travis, {renv}, {golem}, {devtools},
+{usethis}, {testthat}
+- <strong>Script</strong>: Bash
 
-<!-- ![shinyMobile](https://github.com/RinteRface/shinyMobile/raw/master/man/figures/logo.png){width=70%} -->
 
-- Develop outstanding {shiny} apps for iOS, Android, desktop as well as beautiful {shiny} gadgets. {shinyMobile} is built on top of the latest Framework7 template.
-- Code: https://github.com/RinteRface/shinyMobile
+Languages {#speak}
+--------------------------------------------------------------------------------
+
+- French (native)
+- English (C1)
+
+
+
+Contacts {#references}
+--------------------------------------------------------------------------------
+[Dr. Aurélie Edwards](mailto:aued@bu.edu) </br>
+[Pr. Olivier Bonny. +41 21 692 53 60](mailto:olivier.bonny@unil.ch) </br>
+[Dr. Laurent Pujo-Menjouet. +33 472 431 008](mailto:pujo@math.univ-lyon1.fr) </br>
+[Dr. Diane de Zélicourt. +41 (0) 44 635 50 56](mailto:diane.dezelicourt@physiol.uzh.ch) </br>
+[Pr. Vartan Kurtcuoglu. +41 (0) 44 635 50 55](mailto:vartan.kurtcuoglu@uzh.ch)
 
 
 
@@ -147,14 +169,23 @@ Laboratoire de Biométrie et Biologie Evolutive (LBBE), Team Modélisation et 
 
 ::: aside
 
-### Skills:
+R packages {#packages}
+--------------------------------------------------------------------------------
 
-R, HTML, JavaScript, Shiny, Latex
+- #### shinyMobile: 
+<!-- [![CRAN status](https://www.r-pkg.org/badges/version/shinyMobile)](https://cran.r-project.org/package=shinyMobile) -->
+
+<!-- ![shinyMobile](https://github.com/RinteRface/shinyMobile/raw/master/man/figures/logo.png){width=70%} -->
+
+- Develop outstanding {shiny} apps for iOS, Android, desktop as well as beautiful {shiny} gadgets. {shinyMobile} is built on top of the latest Framework7 template.
+- Code: https://github.com/RinteRface/shinyMobile
+
+
 
 :::
 
 
-Publications {data-icon=file}
+Publications {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
 ### An eLearning platform to teach calcium and phosphate homeostasis
@@ -187,7 +218,7 @@ N/A
 D. Granjon, O. Bonny, A. Edwards.
 
 
-Books {data-icon=file}
+Books {data-icon=book}
 --------------------------------------------------------------------------------
 
 ### Outstanding User Interfaces with Shiny
@@ -200,7 +231,7 @@ N/A
 D. Granjon
 
 
-Conferences and Talks {data-icon=file}
+Conferences and Talks {data-icon=user-friends}
 --------------------------------------------------------------------------------
 
 ### satRdayNeuch 2020
@@ -354,7 +385,7 @@ Lyon, France
 
 
 
-Awards {data-icon=file}
+Awards {data-icon=trophy}
 --------------------------------------------------------------------------------
 
 ### 2019 RStudio Shiny Contest
