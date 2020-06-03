@@ -145,7 +145,6 @@ Laboratoire de Biométrie et Biologie Evolutive (LBBE), Team Modélisation et 
 
 06/11 - 08/11
 
-
 ::: aside
 
 ### Skills:
@@ -294,6 +293,32 @@ Oral presentation: ”Oscillatory dynamic during zebrafish somitogenesis”.
 Lyon, France
 
 3/06/13 - 6/06/13
+
+
+
+Awards {data-icon=file}
+--------------------------------------------------------------------------------
+
+### 2019 RStudio Shiny Contest
+
+- Runner-Up price: A Virtual Lab for Teaching Physiology.
+
+N/A
+
+Link: https://community.rstudio.com/t/shiny-contest-submission-a-virtual-lab-for-teaching-physiology/25348
+
+2019
+
+
+### NCCR Kidney.CH Retreat 2018
+
+- Best Poster Award, 2nd price: A web-based application of Calcium and Phosphate Homeostasis.
+
+N/A
+
+N/A
+
+2019
 
 
 ::: aside
