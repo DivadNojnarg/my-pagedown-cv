@@ -187,7 +187,17 @@ N/A
 D. Granjon, O. Bonny, A. Edwards.
 
 
+Books {data-icon=file}
+--------------------------------------------------------------------------------
 
+### Outstanding User Interfaces with Shiny
+This book provides the necessary knowledge to extend Shiny's layout.
+
+N/A
+
+2020
+
+D. Granjon
 
 
 Conferences and Talks {data-icon=file}
