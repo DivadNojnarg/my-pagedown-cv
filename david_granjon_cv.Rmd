@@ -191,7 +191,7 @@ Books {data-icon=file}
 --------------------------------------------------------------------------------
 
 ### Outstanding User Interfaces with Shiny
-This book provides the necessary knowledge to extend Shiny's layout.
+This book provides the necessary knowledge to extend Shiny's layout: https://divadnojnarg.github.io/outstanding-shiny-ui/.
 
 N/A
 
@@ -203,8 +203,56 @@ D. Granjon
 Conferences and Talks {data-icon=file}
 --------------------------------------------------------------------------------
 
-### NCCR Kidney.CH Retreat 2019
+### satRdayNeuch 2020
+Oral presentation: An introduction to shinyMobile: https://github.com/DivadNojnarg/satRdayNeuch2020.
 
+Remote (Covid 2019)
+
+14/03/2020
+
+
+### Zurich R User Group
+Oral presentation: "shinyMobile: Build Native Looking Shiny Apps: https://rinterface.com/shiny/talks/zurichR2020/index.html#slide=1.
+
+Zurich
+
+29/01/2020
+
+
+### BaselR
+Oral presentation: "Development of a web application to represent models of calcium and phosphate homeostasis using R.
+
+Basel
+
+05/12/2019
+
+
+### Shiny Developers Series
+Podcast interview: "Production-ready UIs for Shiny: https://shinydevseries.com/post/episode-4-rinterface/.
+
+Online
+
+08/2019
+
+
+### useR 2019
+Poster presentation: "A Shiny Powered Virtual Patient: https://github.com/DivadNojnarg/userR2019.
+
+Toulouse
+
+09/07/19 - 12/07/19
+
+
+### Zurich R User Group
+Oral presentation: "RinteRface, Production-ready UIs for Shiny: https://rinterface.com/shiny/talks/zurichR2019/index.html#slide=1.
+
+Zurich
+
+27/05/19
+
+
+
+### NCCR Kidney.CH Retreat 2019
 Oral presentation: ”Web applications for physiology: bridge the gap between research and teaching”.
 
 Murten, Switzerland
