@@ -47,13 +47,11 @@ Contact Info {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- <strong>Data Analysis</strong>: R 
-- <strong>Web development</strong>: JavaScript, React, HTML, CSS, Postman (http requests)
-- <strong>Compiled</strong>: basis of C
-- <strong>Reporting</strong>: {bookdown}, {rmarkdown}, {pagedown}, Latex
-- <strong>DevOps</strong>: Git, github-actions, Travis, {renv}, {golem}, {devtools},
-{usethis}, {testthat}
-- <strong>Script</strong>: Bash
+- <strong>Data Analysis:</strong> R 
+- <strong>Web development:</strong> {Shiny}, JavaScript, React, HTML, CSS, Postman (http requests)
+- <strong>Reporting:</strong> {bookdown}, {rmarkdown}, {pagedown}, Latex
+- <strong>Workflow:</strong> Git, github-actions, Travis, {renv}, {golem}, {devtools}, {profvis}, {usethis}, {testthat}, ...
+- <strong>Script:</strong> Bash
 
 
 Languages {#speak}
@@ -66,10 +64,12 @@ Languages {#speak}
 Main
 ================================================================================
 
-David granjon {#title}
+David Granjon {#title}
 --------------------------------------------------------------------------------
 
 ### Principal Scientist and Consultant, Novartis AG
+  - Founder of [RinteRface](https://rinterface.com)
+  - R Shiny advocate
 
 
 
@@ -137,8 +137,6 @@ CHUV, Lausanne university hospital, Switzerland
 
 01/17 - 03/17
 
-
-
 ### Internship in a Team of Theoretical Physiology
 
 Improvements to the model developed during the previous internship. Supervisors: Dr. Moisés Santillan, Pr. Michael Mackey
@@ -159,6 +157,7 @@ Institut National de Recherche en Informatique et Automatique (INRIA), Team Drac
 ::: aside
 
 ### Contacts {#references}
+
 [Dr. Aurélie Edwards](mailto:aued@bu.edu) </br>
 [Pr. Olivier Bonny. +41 21 692 53 60](mailto:olivier.bonny@unil.ch) </br>
 [Dr. Laurent Pujo-Menjouet. +33 472 431 008](mailto:pujo@math.univ-lyon1.fr) </br>
@@ -180,15 +179,6 @@ Institut National de Recherche en Informatique et Automatique (INRIA), Team Drac
 
 </br>
 
-<div class="card">
-<div class="container">
-<img src="https://rinterface.com/inst/images/bs4Dash.svg" alt="Avatar" style="width:100%">
-<p>Bootstrap 4 shinydashboard using AdminLTE3.</p> 
-[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/bs4Dash)
-[![CRAN status](https://www.r-pkg.org/badges/version/bs4Dash)](https://cran.r-project.org/package=bs4Dash)
-</div>
-</div>
-
 :::
 
 
@@ -208,7 +198,6 @@ Study of the impact of pollution on the growth of Daphnia Magna through mathemat
 Laboratoire de Biométrie et Biologie Evolutive (LBBE), Team Modélisation et Ecotoxycologie Prédictive (MEPS), Lyo
 
 06/11 - 08/11
-
 
 Publications {data-icon=newspaper}
 --------------------------------------------------------------------------------
@@ -255,6 +244,20 @@ N/A
 
 D. Granjon
 
+::: aside
+
+</br>
+
+<div class="card">
+<div class="container">
+<img src="https://rinterface.com/inst/images/bs4Dash.svg" alt="Avatar" style="width:100%">
+<p>Bootstrap 4 shinydashboard using AdminLTE3.</p> 
+[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/bs4Dash)
+[![CRAN status](https://www.r-pkg.org/badges/version/bs4Dash)](https://cran.r-project.org/package=bs4Dash)
+</div>
+</div>
+
+:::
 
 Conferences and Talks {data-icon=user-friends}
 --------------------------------------------------------------------------------
@@ -306,7 +309,20 @@ Zurich
 
 27/05/19
 
+::: aside
 
+</br>
+
+<div class="card">
+<div class="container">
+<img src="https://rinterface.com/inst/images/shinydashboardPlus.svg" alt="Avatar" style="width:100%">
+<p>Extensions for shinydashboard.</p> 
+[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/shinydashboardPlus)
+[![CRAN status](https://www.r-pkg.org/badges/version/shinydashboardPlus)](https://cran.r-project.org/package=shinydashboardPlus)
+</div>
+</div>
+
+:::
 
 ### NCCR Kidney.CH Retreat 2019
 Oral presentation: ”Web applications for physiology: bridge the gap between research and teaching”.
@@ -407,8 +423,6 @@ Oral presentation: ”Oscillatory dynamic during zebrafish somitogenesis”.
 Lyon, France
 
 3/06/13 - 6/06/13
-
-
 
 Awards {data-icon=trophy}
 --------------------------------------------------------------------------------
