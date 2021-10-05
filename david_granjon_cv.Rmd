@@ -12,27 +12,32 @@ output:
 Aside
 ================================================================================
 
-<img style="border-radius: 50%" src="https://avatars.githubusercontent.com/divadnojnarg" alt="profile_image">
+<img style="border-radius: 50%" src="https://avatars.githubusercontent.com/divadnojnarg" alt="profile_image" width="75%">
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> dgranjon@ymail.com
 - <i class="fa fa-github"></i> [DivadNojnarg](github.com/DivadNojnarg)
-- <i class="fa fa-home"></i> [Blog](https://divadnojnarg.github.io)
 - <i class="fa fa-home"></i> [RinteRface](https://rinterface.com)
 - <i class="fa fa-twitter"></i> [divadnojnarg](https://twitter.com/divadnojnarg)
 
+References {#references}
+--------------------------------------------------------------------------------
 
+[Dr. Douglas Robinson](mailto:robinson_dm@hotmail.com) </br>
+[Dr. Aurélie Edwards](mailto:aued@bu.edu) </br>
+[Pr. Olivier Bonny](mailto:olivier.bonny@unil.ch) </br>
+[Dr. Laurent Pujo-Menjouet](mailto:pujo@math.univ-lyon1.fr) </br>
+[Dr. Diane de Zélicourt](mailto:diane.dezelicourt@physiol.uzh.ch) </br>
+[Pr. Vartan Kurtcuoglu](mailto:vartan.kurtcuoglu@uzh.ch)
 
 Skills {#skills}
 --------------------------------------------------------------------------------
 
 - <strong>Data Analysis:</strong> R 
-- <strong>Web development:</strong> {Shiny}, JavaScript, React, HTML, CSS, Postman (http requests)
-- <strong>Reporting:</strong> {bookdown}, {rmarkdown}, {pagedown}, Latex
-- <strong>Workflow:</strong> Git, github-actions, Travis, {renv}, {golem}, {devtools}, {profvis}, {usethis}, {testthat}, ...
-- <strong>Script:</strong> Bash
+- <strong>Web development:</strong> {Shiny}, JavaScript, React, HTML, CSS, Framework7, Bootstrap, webpack
+- <strong>Reporting:</strong> {rmarkdown}, {pagedown}, {bookdown}, Latex
+- <strong>R-Workflow:</strong> Git, CI/CD (github-actions, ...), {renv}, {golem}, {devtools}, {profvis}, {usethis}, {testthat}, ...
 
 
 Languages {#speak}
@@ -48,7 +53,7 @@ Main
 David Granjon {#title}
 --------------------------------------------------------------------------------
 
-### Principal Scientist and Consultant, Novartis AG
+### Currently: Senior Data Science Expert, Novartis AG
   - Founder of [RinteRface](https://rinterface.com)
   - R Shiny advocate
 
@@ -96,6 +101,20 @@ Lycée Claude Fauriel, Saint Etienne
 Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
+### Principal Scientist and Consultant
+Software development
+
+Novartis AG (Basel)
+
+06/19 - 06/21
+
+Projects overview:
+
+  - Support Novartis associates to develop production ready Shiny apps for clinical activities.
+  - Deliver high quality workshops to promote best practices around Shiny apps.
+  - Maintain internal tools: R packages, databases, web servers, ...
+  - Represent Novartis at international R conferences (R in Pharma).
+
 ### Post Doctoral Researcher
 
 Software engineer
@@ -106,48 +125,12 @@ The Interface Group, University of Zurich (UZH)
 
 Two main projects:
 
-  - develop user-friendly interfaces of Calcium and Phosphate Homeosta-
+  - Design user-friendly interfaces of Calcium and Phosphate Homeosta-
 sis, using the R-Shiny package, javascript and C. Management of linux web servers. Design new interactive tools dedicated to teaching courses.
-  - build a model linking the cardiac and renal functions,to better understand the interplay between chronic kidney disease as well as cardiac failure. Create virtual patient populations using Monte Carlo simulations.
-
-
-### Post Doctoral Researcher
-Improvements to the model developed during my doctoral thesis. Publication of a second article (see publications). Supervisors: Dr. Aurélie Edwards and Pr. Olivier Bonny.
-
-CHUV, Lausanne university hospital, Switzerland
-
-01/17 - 03/17
-
-### Internship in a Team of Theoretical Physiology
-
-Improvements to the model developed during the previous internship. Supervisors: Dr. Moisés Santillan, Pr. Michael Mackey
-
-Centre for Applied Mathematics in Bioscience and Medicine (CAMBAM), Mc Gill University, Montreal, Canada.
-
-07/13 - 08/13
-
-### Internship in a Laboratory of Applied Mathematics
-Project title: ”Multiscale modeling of Zebrafish Somitogenesis”
-Development of a model accounting for the intra-cellular oscillator in each cell during somitogenesis. Supervisors: Dr. Laurent Pujo-menjouet (UCBL), Pr. Michael Mackey (Mc Gill, Canada).
-
-Institut National de Recherche en Informatique et Automatique (INRIA), Team Dracula, Lyon
-
-01/13 - 07/13
-
+  - Develop a model linking the cardiac and renal functions, to better understand the interplay between chronic kidney disease as well as cardiac failure. Create virtual patient populations using Monte Carlo simulations.
+  
 
 ::: aside
-
-### Contacts {#references}
-
-[Dr. Aurélie Edwards](mailto:aued@bu.edu) </br>
-[Pr. Olivier Bonny. +41 21 692 53 60](mailto:olivier.bonny@unil.ch) </br>
-[Dr. Laurent Pujo-Menjouet. +33 472 431 008](mailto:pujo@math.univ-lyon1.fr) </br>
-[Dr. Diane de Zélicourt. +41 (0) 44 635 50 56](mailto:diane.dezelicourt@physiol.uzh.ch) </br>
-[Pr. Vartan Kurtcuoglu. +41 (0) 44 635 50 55](mailto:vartan.kurtcuoglu@uzh.ch)
-
-
-### R packages {#packages}
-</br>
 
 <div class="card">
 <div class="container">
@@ -160,25 +143,60 @@ Institut National de Recherche en Informatique et Automatique (INRIA), Team Drac
 
 </br>
 
+<div class="card">
+<div class="container">
+<img src="https://rinterface.com/inst/images/bs4Dash.svg" alt="Avatar" style="width:100%">
+<p>Bootstrap 4 shinydashboard using AdminLTE3.</p> 
+[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/bs4Dash)
+[![CRAN status](https://www.r-pkg.org/badges/version/bs4Dash)](https://cran.r-project.org/package=bs4Dash)
+</div>
+</div>
+
+</br>
+
 :::
 
 
+### Post Doctoral Researcher
+Improvements to the model developed during my doctoral thesis. Publication of a second article (see publications). Supervisors: Dr. Aurélie Edwards and Pr. Olivier Bonny.
+
+CHUV, Lausanne university hospital, Switzerland.
+
+01/17 - 03/17
+
+### Internship in a Team of Theoretical Physiology
+
+Improvements to the model developed during the previous internship. Supervisors: Dr. Moisés Santillan, Pr. Michael Mackey.
+
+Centre for Applied Mathematics in Bioscience and Medicine (CAMBAM), Mc Gill University, Montreal, Canada.
+
+07/13 - 08/13
+
 ### Internship in a Laboratory of Applied Mathematics
-Project title: ” Mathematical modeling of somitogenesis, reaction- diffusion systems”.
+Project title: "Multiscale modeling of Zebrafish Somitogenesis".
+Development of a model accounting for the intra-cellular oscillator in each cell during somitogenesis. Supervisors: Dr. Laurent Pujo-menjouet (UCBL), Pr. Michael Mackey (Mc Gill, Canada).
+
+Institut National de Recherche en Informatique et Automatique (INRIA), Team Dracula, Lyon.
+
+01/13 - 07/13
+
+### Internship in a Laboratory of Applied Mathematics
+Project title: "Mathematical modeling of somitogenesis, reaction- diffusion systems".
 Analysis of two mathematical models: cell-cycle and clock/wavefront models. Supervisor: Dr. Laurent Pujo-Menjouet (UCBL).
 
-Institut National de Recherche en Informatique et Automatique (INRIA), Team Dracula, Lyon
+Institut National de Recherche en Informatique et Automatique (INRIA), Team Dracula, Lyon.
 
 03/12 - 07/12
 
 
 ### Internship in a Laboratory of Theoretical Ecology
-Project title: ” Ecotoxicology of Daphnia Magna ”.
+Project title: "Ecotoxicology of Daphnia Magna".
 Study of the impact of pollution on the growth of Daphnia Magna through mathematical models. Supervisors: Pr. Sandrine Charles (UCBL), Pr. Marie Laure Delignette Muller (Ecole Nationale Vétérinaire de Lyon).
 
-Laboratoire de Biométrie et Biologie Evolutive (LBBE), Team Modélisation et Ecotoxycologie Prédictive (MEPS), Lyo
+Laboratoire de Biométrie et Biologie Evolutive (LBBE), Team Modélisation et Ecotoxycologie Prédictive (MEPS), Lyon.
 
 06/11 - 08/11
+
 
 Publications {data-icon=newspaper}
 --------------------------------------------------------------------------------
@@ -203,6 +221,31 @@ N/A
 D. Granjon, O. Bonny, A. Edwards.
 
 
+::: aside
+
+<div class="card">
+<div class="container">
+<img src="https://rinterface.com/inst/images/shinydashboardPlus.svg" alt="Avatar" style="width:100%">
+<p>Extensions for shinydashboard.</p> 
+[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/shinydashboardPlus)
+[![CRAN status](https://www.r-pkg.org/badges/version/shinydashboardPlus)](https://cran.r-project.org/package=shinydashboardPlus)
+</div>
+</div>
+
+</br>
+
+<div class="card">
+<div class="container">
+<img src="https://rinterface.com/inst/images/charpente.png" alt="Avatar" style="width:100%">
+<p>Tools to develop Shiny extensions.</p> 
+[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/charpente)
+[![doc](https://img.shields.io/badge/doc-here-brightgreen.svg)](https://unleash-shiny.rinterface.com/workflow-charpente.html)
+</div>
+</div>
+
+:::
+
+
 ### A Model of Calcium Homeostasis in the Rat
 American Journal of Physiology-Renal Physiology, 311 (5): F1047-F1062. doi: 10.1152/ajprenal.00230.2016
 
@@ -217,11 +260,12 @@ Books {data-icon=book}
 --------------------------------------------------------------------------------
 
 ### Outstanding User Interfaces with Shiny
-This book provides the necessary knowledge to extend Shiny's layout: https://divadnojnarg.github.io/outstanding-shiny-ui/.
+This book provides the necessary knowledge to extend Shiny's layout: 
+https://unleash-shiny.rinterface.com.
 
-N/A
+CRC Press Forthcoming
 
-2020
+2021
 
 D. Granjon
 
@@ -229,27 +273,54 @@ D. Granjon
 Conferences and Talks {data-icon=user-friends}
 --------------------------------------------------------------------------------
 
+### R in Pharma 2021
+Workshop + talk
+
+TBD
+
+Oct-Nov 2021
+
+### Beyond DataViz: How to Improve the UI/UX of Your Shiny Apps (Podcast)
+Interview: `{deminR}` a R powered minesweeper: https://www.crowdcast.io/e/shiny-apps-UX-UI-design?__s=81h3pqtq7v4b70zpyfa1
+
+Online
+
+Wed., Sep. 29 @11am ET
+
+### Rencontres R 2021
+Workshop: `{shinyMobile}` Hands-on: https://github.com/RinteRface/rencontresR2021
+
+Remote (Covid 2019)
+
+07/09/2021
+
+### Shiny Developers Series 2021
+Podcast interview: "Outstanding User Interfaces with David Granjon: https://shinydevseries.com/post/episode-20-shinyui/.
+
+Online
+
+05/2021
+
+### R in Pharma 2020
+Workshop: Unleash Shiny: https://github.com/RinteRface/Unleash-Shiny
+
+Remote (Covid 2019)
+
+09/10/2020
+
+### eRum 2020
+Workshop: Advanced User Interfaces for Shiny Developers: https://github.com/Novartis/Advanced-User-Interfaces-for-Shiny-Developers, https://rinterface.com/shiny/talks/eRum2020/dg/#slide=1
+
+Remote (Covid 2019)
+
+May 2020
+
 ### satRdayNeuch 2020
 Oral presentation: An introduction to shinyMobile: https://github.com/DivadNojnarg/satRdayNeuch2020.
 
 Remote (Covid 2019)
 
 14/03/2020
-
-::: aside
-
-</br>
-
-<div class="card">
-<div class="container">
-<img src="https://rinterface.com/inst/images/bs4Dash.svg" alt="Avatar" style="width:100%">
-<p>Bootstrap 4 shinydashboard using AdminLTE3.</p> 
-[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/bs4Dash)
-[![CRAN status](https://www.r-pkg.org/badges/version/bs4Dash)](https://cran.r-project.org/package=bs4Dash)
-</div>
-</div>
-
-:::
 
 ### Zurich R User Group
 Oral presentation: "shinyMobile: Build Native Looking Shiny Apps: https://rinterface.com/shiny/talks/zurichR2020/index.html#slide=1.
@@ -267,7 +338,7 @@ Basel
 05/12/2019
 
 
-### Shiny Developers Series
+### Shiny Developers Series 2019
 Podcast interview: "Production-ready UIs for Shiny: https://shinydevseries.com/post/episode-4-rinterface/.
 
 Online
@@ -290,20 +361,6 @@ Zurich
 
 27/05/19
 
-::: aside
-
-</br>
-
-<div class="card">
-<div class="container">
-<img src="https://rinterface.com/inst/images/shinydashboardPlus.svg" alt="Avatar" style="width:100%">
-<p>Extensions for shinydashboard.</p> 
-[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/shinydashboardPlus)
-[![CRAN status](https://www.r-pkg.org/badges/version/shinydashboardPlus)](https://cran.r-project.org/package=shinydashboardPlus)
-</div>
-</div>
-
-:::
 
 ### NCCR Kidney.CH Retreat 2019
 Oral presentation: ”Web applications for physiology: bridge the gap between research and teaching”.
@@ -407,6 +464,24 @@ Lyon, France
 
 Awards {data-icon=trophy}
 --------------------------------------------------------------------------------
+
+### 2021 RStudio Shiny Contest Judge
+- Judge of the 2021 Shiny Contest.
+
+N/A
+
+Link: https://community.rstudio.com/t/commute-explorer-shiny-contest-submission/104651
+
+2021
+
+### 2020 RStudio Shiny Contest
+- Runner-Up price: `{deminR}` a minesweeper for R.
+
+N/A
+
+Link: https://community.rstudio.com/t/deminr-a-minesweeper-for-r-2020-shiny-contest-submission/56356
+
+2020
 
 ### 2019 RStudio Shiny Contest
 
