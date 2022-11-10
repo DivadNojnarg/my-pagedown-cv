@@ -36,7 +36,7 @@ Skills {#skills}
 
 - <strong>Data Analysis:</strong> R 
 - <strong>Web development:</strong> {Shiny}, JavaScript, React, HTML, CSS, Framework7, Bootstrap, webpack
-- <strong>Reporting:</strong> {rmarkdown}, {pagedown}, {bookdown}, Latex
+- <strong>Reporting:</strong> {rmarkdown}, {pagedown}, {bookdown}, Latex, quarto
 - <strong>R-Workflow:</strong> Git, CI/CD (github-actions, ...), {renv}, {golem}, {devtools}, {profvis}, {usethis}, {testthat}, ...
 
 
@@ -201,16 +201,6 @@ Laboratoire de Biométrie et Biologie Evolutive (LBBE), Team Modélisation et 
 Publications {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
-### An eLearning platform to teach calcium and phosphate homeostasis
-Submitted to American Journal of Physiology-Advances in Physiology Education. 
-
-N/A
-
-2019
-
-D. Granjon, O. Bonny, F. Verrey, V. Kurtcuoglu and D. de Zelicourt. 
-
-
 ### Coupling between Phosphate and Calcium Homeostasis: A Mathematical Model
 American Journal of Physiology-Renal Physiology, 313(6): F1181-F1199. doi: 10.1152/ajprenal.00271.2017
 
@@ -219,32 +209,6 @@ N/A
 2017
 
 D. Granjon, O. Bonny, A. Edwards.
-
-
-::: aside
-
-<div class="card">
-<div class="container">
-<img src="https://rinterface.com/inst/images/shinydashboardPlus.svg" alt="Avatar" style="width:100%">
-<p>Extensions for shinydashboard.</p> 
-[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/shinydashboardPlus)
-[![CRAN status](https://www.r-pkg.org/badges/version/shinydashboardPlus)](https://cran.r-project.org/package=shinydashboardPlus)
-</div>
-</div>
-
-</br>
-
-<div class="card">
-<div class="container">
-<img src="https://rinterface.com/inst/images/charpente.png" alt="Avatar" style="width:100%">
-<p>Tools to develop Shiny extensions.</p> 
-[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/charpente)
-[![doc](https://img.shields.io/badge/doc-here-brightgreen.svg)](https://unleash-shiny.rinterface.com/workflow-charpente.html)
-</div>
-</div>
-
-:::
-
 
 ### A Model of Calcium Homeostasis in the Rat
 American Journal of Physiology-Renal Physiology, 311 (5): F1047-F1062. doi: 10.1152/ajprenal.00230.2016
@@ -263,29 +227,75 @@ Books {data-icon=book}
 This book provides the necessary knowledge to extend Shiny's layout: 
 https://unleash-shiny.rinterface.com.
 
-CRC Press Forthcoming
+CRC Press, R [series](https://www.routledge.com/Outstanding-User-Interfaces-with-Shiny/Granjon/p/book/9780367643652) 
 
-2021
+2022
 
 D. Granjon
 
+:::aside
+
+<div class="card">
+<div class="container">
+<img src="https://user-images.githubusercontent.com/18291543/181491295-1a5b498c-e7ee-428c-a1af-c3ee22e35ef5.jpg" alt="Avatar" style="width:100%">
+<p>Outstanding Shiny.</p> 
+[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/DivadNojnarg/outstanding-shiny-ui)
+[![Buy](https://img.shields.io/badge/buy-here-1f8eed.svg)](https://www.routledge.com/Outstanding-User-Interfaces-with-Shiny/Granjon/p/book/9780367645267)
+</div>
+</div>
+
+</br>
+
+<div class="card">
+<div class="container">
+<img src="https://rinterface.com/inst/images/shinydashboardPlus.svg" alt="Avatar" style="width:100%">
+<p>Extensions for shinydashboard.</p> 
+[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/shinydashboardPlus)
+[![CRAN status](https://www.r-pkg.org/badges/version/shinydashboardPlus)](https://cran.r-project.org/package=shinydashboardPlus)
+</div>
+</div>
+
+:::
 
 Conferences and Talks {data-icon=user-friends}
 --------------------------------------------------------------------------------
 
+### R in Pharma 2022
+
+Workshop: Introduction to {shinyValidator}: https://rinpharma2022.rinterface.com/
+
+Online
+
+02/11/2022
+
+### Shiny Conf 2022 by Appsilon
+
+Invited talk: {shinyValidator}: toward a new audit process for Shiny apps quality through CI/CD: https://appsilonconf2022.rinterface.com
+
+Online
+
+29/04/2022
+
 ### R in Pharma 2021
-Workshop + talk
+Talk: Outstanding User Interfaces with Shiny: https://github.com/RinteRface/rinpharma2021
 
-TBD
+Online
 
-Oct-Nov 2021
+04/11/2021
+
+### R in Pharma 2021
+Workshop: Unleash Shiny 2021: https://rinpharma2021.rinterface.com
+
+Online
+
+10/10/2021
 
 ### Beyond DataViz: How to Improve the UI/UX of Your Shiny Apps (Podcast)
 Interview: `{deminR}` a R powered minesweeper: https://www.crowdcast.io/e/shiny-apps-UX-UI-design?__s=81h3pqtq7v4b70zpyfa1
 
 Online
 
-Wed., Sep. 29 @11am ET
+29/09/2021
 
 ### Rencontres R 2021
 Workshop: `{shinyMobile}` Hands-on: https://github.com/RinteRface/rencontresR2021
@@ -321,6 +331,19 @@ Oral presentation: An introduction to shinyMobile: https://github.com/DivadNojna
 Remote (Covid 2019)
 
 14/03/2020
+
+::: aside
+
+<div class="card">
+<div class="container">
+<img src="https://rinterface.com/inst/images/charpente.png" alt="Avatar" style="width:100%">
+<p>Tools to develop Shiny extensions.</p> 
+[![code](https://img.shields.io/badge/code-available-1f8eed.svg)](https://github.com/RinteRface/charpente)
+[![doc](https://img.shields.io/badge/doc-here-brightgreen.svg)](https://unleash-shiny.rinterface.com/workflow-charpente.html)
+</div>
+</div>
+
+:::
 
 ### Zurich R User Group
 Oral presentation: "shinyMobile: Build Native Looking Shiny Apps: https://rinterface.com/shiny/talks/zurichR2020/index.html#slide=1.
